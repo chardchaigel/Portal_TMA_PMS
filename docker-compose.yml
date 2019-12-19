@@ -22,3 +22,7 @@ services:
         environment:
             PMA_HOST: 127.0.0.1
             MYSQL_ROOT_PASSWORD: 0tvpkdi^hwxmew,
+    apiservices:
+        container_name: apiservicesgel
+        ports: 3005:3005
+

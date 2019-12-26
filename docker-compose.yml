@@ -35,8 +35,10 @@ services:
         networks:
             - gelnetwork
     apiservices:
+        build: ./node
         container_name: apiservicesgel
-        ports: 3005:3005
+        ports: 
+            - 3005:3005
         networks:
             - gelnetwork
 networks:
